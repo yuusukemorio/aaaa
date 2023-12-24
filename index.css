@@ -75,7 +75,7 @@
         margin-left: 0.6vw;
         margin-top: -0.5vw;
         margin-right: 0vw;
-        background-color: rgba(230, 230, 230, 0.623);
+        /* background-color: rgba(230, 230, 230, 0.623); */
     }
     
     .footer{
@@ -84,7 +84,7 @@
         margin-left: auto;
         margin-right: auto;
     
-        text-align:center;
+        /* text-align:center; */
         font-size: 1vw;
     }
     .footer_element{
@@ -177,7 +177,7 @@
         margin-left: 0.6vw;
         margin-top: -0.5vw;
         margin-right: 0vw;
-        background-color: rgba(230, 230, 230, 0.623);
+        /* background-color: rgba(230, 230, 230, 0.623); */
     }
     
     .footer{
@@ -186,7 +186,7 @@
         margin-left: auto;
         margin-right: auto;
     
-        text-align:center;
+        /* text-align:center; */
         font-size: 1vw;
     }
     .footer_element{
