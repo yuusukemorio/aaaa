@@ -20,7 +20,7 @@
         margin-left: -0.5vw;
     }
     .inu{
-        text-align:center;
+        text-align:left;
         margin-bottom: 4vw;
         margin-top: 4vw;
     }
@@ -48,6 +48,7 @@
         margin-right: 2vw;
         margin-left: 0.75vw;
         font-size: 1vw;
+        text-decoration: none;
     }
     .name{
         font-weight: bold;
@@ -97,6 +98,12 @@
     }
     .sorry_mozi{
         font-size: 0%;
+    }
+
+
+    .header_element{
+        text-decoration: none;
+        color: #000000; /* 今回は#000000を指定していますが、好きな色を指定できます */
     }
  }
 
