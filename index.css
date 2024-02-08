@@ -103,7 +103,13 @@
 
     .header_element{
         text-decoration: none;
-        color: #000000; /* 今回は#000000を指定していますが、好きな色を指定できます */
+        color: #000000;
+    }
+
+
+    .margin_works{
+        margin-bottom: -1.5vw;
+
     }
  }
 
@@ -212,6 +218,11 @@
 
     .header_element{
         text-decoration: none;
-        color: #000000; /* 今回は#000000を指定していますが、好きな色を指定できます */
+        color: #000000; 
+    }
+
+    .margin_works{
+        margin-bottom: -1.5vw;
+
     }
  }
