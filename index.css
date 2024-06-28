@@ -10,7 +10,7 @@
       body{
         color: black;
         font-family: "MSg";
-        background-color: rgb(230, 230, 230);
+        background-color: rgb(255, 255, 255);
         /* background-image: url("tex.png"); */
       }
       
@@ -66,13 +66,16 @@
         flex-wrap: wrap;
     }
     .work_img{
-        width: 13vw;
+        width: 18vw;
         height: auto;
-        margin-right: 1vw;
+        margin-right: 3.3vw;
+        margin-left: 3.3vw;
+        margin-bottom: 2vw;
+        margin-top: 2vw;
         /* margin: Auto; */
     }
     .caption{
-        font-size: 0.9vw;
+        font-size: 1.2vw;
         margin-left: 0vw;
         margin-top: -0.5vw;
         margin-right: 0vw;
@@ -180,13 +183,16 @@
         flex-wrap: wrap;
     }
     .work_img{
-        width: 13vw;
+        width: 18vw;
         height: auto;
-        margin-right: 1vw;
+        margin-right: 3.3vw;
+        margin-left: 3.3vw;
+        margin-bottom: 2vw;
+        margin-top: 2vw;
         /* margin: Auto; */
     }
     .caption{
-        font-size: 0.9vw;
+        font-size: 1.2vw;
         margin-left: 0vw;
         margin-top: -0.5vw;
         margin-right: 0vw;
