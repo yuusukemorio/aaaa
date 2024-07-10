@@ -1,234 +1,64 @@
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    position: relative; /* 追加 */
+}
 
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 50vw;  /* 正方形の幅 */
+    height: 40vw; /* 正方形の高さ */
+}
 
+.item {
+    margin: 1.3vw;  /* マージンを調整 */
+    position: relative;
+}
 
-@media screen and (orientation: landscape) {
-    @font-face {
-        font-family: "MSg";
-        src: url("MS\ Gothic.ttf") format("truetype");
-      }
-    
-      body{
-        color: black;
-        font-family: "MSg";
-        background-color: rgb(255, 255, 255);
-        /* background-image: url("tex.png"); */
-      }
-      
-      .header{
-        display: flex;
-        flex-wrap: wrap;
-        margin-left: -0.5vw;
-    }
-    .inu{
-        text-align:center;
-        margin-bottom: 4vw;
-        margin-top: 4vw;
-    }
-    .dog{
-        width: 20vw;
-        height: auto;
-        margin: Auto;
-    }
-    h1{
-        margin-top: 2vw;
-        margin-bottom: -0.1vw;
-        font-size: 1.5vw;
-    }
-    .line_c{
-        width: 99vw;
-        text-align:center;
-    
-    }
-    .line{
-        width: 30vw;
-        text-align:center;
-        margin-left: 0.01vw;
-    }
-    .header_element{
-        margin-right: 2vw;
-        margin-left: 0.75vw;
-        font-size: 1vw;
-        text-decoration: none;
-    }
-    .name{
-        font-weight: bold;
-        font-size: 1.2vw;
-    }
-    .profile_about{
-        margin-bottom: 0.3vw;
-        margin-top: 0vw;
-        font-size: 0.9vw;
-    }
-    
-    .works{
-        margin-left : 0vw ;
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .work_img{
-        width: 18vw;
-        height: auto;
-        margin-right: 3.3vw;
-        margin-left: 3.3vw;
-        margin-bottom: 2vw;
-        margin-top: 2vw;
-        /* margin: Auto; */
-    }
-    .caption{
-        font-size: 1.2vw;
-        margin-left: 0vw;
-        margin-top: -0.5vw;
-        margin-right: 0vw;
-        /* background-color: rgba(230, 230, 230, 0.623); */
-    }
-    
-    .footer{
-        margin-top: 3.4vw;
-        margin-bottom: 3.4vw;
-        margin-left: auto;
-        margin-right: auto;
-    
-        /* text-align:center; */
-        font-size: 0.9vw;
-    }
-    .footer_element{
-        margin-left: 0.5vw;
-        margin-right: 0.5vw;
-    }
+.item img {
+    max-width: 12vw;
+    display: block;
+    transition: transform 0.3s ease-out;
 
-    .sorry{
-        
-    }
-    .sorry_mozi{
-        font-size: 0%;
-    }
+    cursor: pointer;
+}
 
+.item::before {
+    content: '';
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    right: -50px;
+    bottom: -50px;
+    background: transparent;
+}
 
-    .header_element{
-        text-decoration: none;
-        color: #000000;
-    }
+.self-intro-container {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 
+.self-intro-image {
+    width: 5vw;
+    transition: transform 0.3s ease-out;
+    cursor: pointer;
+}
 
-    .margin_works{
-        margin-bottom: -1.5vw;
-
-    }
- }
-
-
-
-
- @media screen and (orientation: portrait) {
-    @font-face {
-        font-family: "MSg";
-        src: url("MS\ Gothic.ttf") format("truetype");
-      }
-    
-      body{
-        color: black;
-        font-family: "MSg";
-        background-color: rgb(255, 255, 255);
-        /* background-image: url("tex.png"); */
-      }
-      
-      .header{
-        display: flex;
-        flex-wrap: wrap;
-        margin-left: -0.5vw;
-    }
-    .inu{
-        text-align:center;
-        margin-bottom: 4vw;
-        margin-top: 4vw;
-    }
-    .dog{
-        width: 20vw;
-        height: auto;
-        margin: Auto;
-    }
-    h1{
-        margin-top: 2vw;
-        margin-bottom: -0.1vw;
-        font-size: 1.5vw;
-    }
-    .line_c{
-        width: 99vw;
-        text-align:center;
-    
-    }
-    .line{
-        width: 30vw;
-        text-align:center;
-        margin-left: 0.01vw;
-    }
-    .header_element{
-        margin-right: 2vw;
-        margin-left: 0.75vw;
-        font-size: 1vw;
-    }
-    .name{
-        font-weight: bold;
-        font-size: 1.2vw;
-    }
-    .profile_about{
-        margin-bottom: 0.3vw;
-        margin-top: 0vw;
-        font-size: 0.9vw;
-    }
-    
-    .works{
-        margin-left : 0vw ;
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .work_img{
-        width: 18vw;
-        height: auto;
-        margin-right: 3.3vw;
-        margin-left: 3.3vw;
-        margin-bottom: 2vw;
-        margin-top: 2vw;
-        /* margin: Auto; */
-    }
-    .caption{
-        font-size: 1.2vw;
-        margin-left: 0vw;
-        margin-top: -0.5vw;
-        margin-right: 0vw;
-        /* background-color: rgba(230, 230, 230, 0.623); */
-    }
-    
-    .footer{
-        margin-top: 3.4vw;
-        margin-bottom: 3.4vw;
-        margin-left: auto;
-        margin-right: auto;
-    
-        /* text-align:center; */
-        font-size: 1vw;
-    }
-    .footer_element{
-        margin-left: 0.5vw;
-        margin-right: 0.5vw;
-    }
-
-
-
-    .sorry{
-        
-    }
-    .sorry_mozi{
-        font-size: 9vw;
-    }
-
-    .header_element{
-        text-decoration: none;
-        color: #000000; 
-    }
-
-    .margin_works{
-        margin-bottom: -1.5vw;
-
-    }
- }
+.self-intro-text {
+    display: none; /* 初期状態では非表示 */
+    background: rgb(246, 246, 242);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    /* border-radius: 5px; */
+}
