@@ -1,64 +1,159 @@
-body {
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    position: relative; /* 追加 */
+@media screen and (orientation: landscape) {
+
+    .sorry_mozi{
+        font-size: 0vw;
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
+
+
+    body {
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        position: relative; /* 追加 */
+    }
+    
+    .portfolio {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        width: 50vw;  /* 正方形の幅 */
+        height: 40vw; /* 正方形の高さ */
+    }
+    
+    .item {
+        margin: 1.3vw;  /* マージンを調整 */
+        position: relative;
+    }
+    
+    .item img {
+        max-width: 12vw;
+        display: block;
+        transition: transform 0.2s ease-out;
+    
+        cursor: pointer;
+    }
+    
+    .item::before {
+        content: '';
+        position: absolute;
+        top: -50px;
+        left: -50px;
+        right: -50px;
+        bottom: -50px;
+        background: transparent;
+    }
+    
+    .self-intro-container {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .self-intro-image {
+        width: 5vw;
+        transition: transform 0.2s ease-out;
+        cursor: pointer;
+    }
+    
+    .self-intro-text {
+        display: none; /* 初期状態では非表示 */
+        background: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        padding: 10px;
+        /* border-radius: 5px; */
+    }
 }
 
-.portfolio {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    width: 50vw;  /* 正方形の幅 */
-    height: 40vw; /* 正方形の高さ */
-}
 
-.item {
-    margin: 1.3vw;  /* マージンを調整 */
-    position: relative;
-}
 
-.item img {
-    max-width: 12vw;
-    display: block;
-    transition: transform 0.2s ease-out;
 
-    cursor: pointer;
-}
 
-.item::before {
-    content: '';
-    position: absolute;
-    top: -50px;
-    left: -50px;
-    right: -50px;
-    bottom: -50px;
-    background: transparent;
-}
 
-.self-intro-container {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
 
-.self-intro-image {
-    width: 5vw;
-    transition: transform 0.2s ease-out;
-    cursor: pointer;
-}
 
-.self-intro-text {
-    display: none; /* 初期状態では非表示 */
-    background: rgb(246, 246, 242);
-    color: rgb(0, 0, 0);
-    padding: 10px;
-    /* border-radius: 5px; */
+
+@media screen and (orientation: portrait) {
+
+    .sorry_mozi{
+        font-size: 6vw;
+    }
+
+    .all{
+        display: flex;
+        justify-content: center;
+    }
+
+    body {
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        position: relative; /* 追加 */
+    }
+    
+    .portfolio {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        width: 50vw;  /* 正方形の幅 */
+        height: 40vw; /* 正方形の高さ */
+    }
+    
+    .item {
+        margin: 1.3vw;  /* マージンを調整 */
+        position: relative;
+    }
+    
+    .item img {
+        max-width: 12vw;
+        display: block;
+        transition: transform 0.2s ease-out;
+    
+        cursor: pointer;
+    }
+    
+    .item::before {
+        content: '';
+        position: absolute;
+        top: -50px;
+        left: -50px;
+        right: -50px;
+        bottom: -50px;
+        background: transparent;
+    }
+    
+    .self-intro-container {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .self-intro-image {
+        width: 5vw;
+        transition: transform 0.2s ease-out;
+        cursor: pointer;
+    }
+    
+    .self-intro-text {
+        display: none; /* 初期状態では非表示 */
+        background: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        padding: 10px;
+        /* border-radius: 5px; */
+    }
 }
