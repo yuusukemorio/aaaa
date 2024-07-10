@@ -25,7 +25,7 @@ body {
 .item img {
     max-width: 12vw;
     display: block;
-    transition: transform 0.3s ease-out;
+    transition: transform 0.2s ease-out;
 
     cursor: pointer;
 }
@@ -51,7 +51,7 @@ body {
 
 .self-intro-image {
     width: 5vw;
-    transition: transform 0.3s ease-out;
+    transition: transform 0.2s ease-out;
     cursor: pointer;
 }
 
