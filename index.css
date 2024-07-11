@@ -8,6 +8,10 @@
 
 
     body {
+
+        font-family: 'Noto Sans', sans-serif;
+        font-weight: normal; /* 必要に応じて他のフォントウェイトも指定可能 */
+
         background-color: white;
         display: flex;
         justify-content: center;
@@ -65,6 +69,7 @@
     }
     
     .self-intro-text {
+        font-size: 0.9vw;
         display: none; /* 初期状態では非表示 */
         background: rgb(255, 255, 255);
         color: rgb(0, 0, 0);
@@ -93,6 +98,10 @@
     }
 
     body {
+
+        font-family: 'Noto Sans', sans-serif;
+        font-weight: normal; /* 必要に応じて他のフォントウェイトも指定可能 */
+
         background-color: white;
         display: flex;
         justify-content: center;
@@ -150,6 +159,7 @@
     }
     
     .self-intro-text {
+        font-size: 0.9vw;
         display: none; /* 初期状態では非表示 */
         background: rgb(255, 255, 255);
         color: rgb(0, 0, 0);

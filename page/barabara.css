@@ -1,0 +1,21 @@
+.contents div{
+    margin-left: 40vw;
+    margin-right: 40vw;
+}
+
+.contents p{
+    font-size: 10%;
+}
+
+.contents img{
+    width: 50%;
+    height: auto;
+}
+
+
+
+
+.imgs{
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
