@@ -1,21 +1,21 @@
 .works img{
-    width: 18%;
-    height: 18%;
+    width: 16%;
+    height: 16%;
 
     margin: 0.2vw;
 }
 
 img.img_size1 {
-    width: 7%;
-    height: 7%;
+    width: 5%;
+    height: 5%;
 }
 img.img_size2{
-    width: 16%;
-    height: 16%;
+    width: 14%;
+    height: 14%;
 }
 img.img_size3 {
-    width: 12%;
-    height: 12%;
+    width: 10%;
+    height: 10%;
 }
 
 a{
