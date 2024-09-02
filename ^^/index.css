@@ -17,6 +17,10 @@ img.img_size3 {
     width: 10%;
     height: 10%;
 }
+img.img_size4 {
+    width: 7%;
+    height: 7%;
+}
 
 a{
     text-decoration: none;
