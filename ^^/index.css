@@ -1,11 +1,16 @@
 .works img{
-    width: 16%;
-    height: 16%;
+    /* width: 16%;
+    height: 16%; */
+    width: auto;
+    height: 12vh;
 
-    margin: 0.2vw;
+    margin: 0.03vw;
+}
+a{
+    text-decoration: none;
 }
 
-img.img_size1 {
+/* img.img_size1 {
     width: 5%;
     height: 5%;
 }
@@ -20,8 +25,9 @@ img.img_size3 {
 img.img_size4 {
     width: 7%;
     height: 7%;
-}
+} */
 
-a{
-    text-decoration: none;
-}
+
+/* .works{
+    display: flex;
+} */
