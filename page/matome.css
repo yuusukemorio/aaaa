@@ -7,12 +7,15 @@ body {
 
 
 
+.senta-{
+    text-align: center;
+}
 
 .contents{
     display: block;
     text-align: center;
     
-    margin-top: 8vw;
+    margin-top: 7vw;
     margin-left: 18vw;
     margin-right: 18vw;
 }
@@ -30,14 +33,15 @@ body {
 .title_text p{
     text-align: left;
     font-size: 80%;
-    margin-top: -2%;
-    margin-bottom: -6%;
+    margin-top: -1.5%;
+    margin-bottom: -2%;
 }
 .title_text h2{
     text-align: left;
-    font-size: 140%;
+    font-size: 120%;
 
-    font-weight: bold;
+    /* font-weight: bold; */
+    font-weight:100;
 }
 
 .title_img img{
@@ -56,6 +60,10 @@ body {
 
 
 
+.tenji{
+    width: 100%;
+    /* display: flex; */
+}
 .imgs{
     display: flex;
     flex-wrap: wrap;
