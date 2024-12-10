@@ -1,27 +1,29 @@
-.body{
-    display:flex;
+body {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
 }
 
-img{
-    margin: 1.3vw;  /* マージンを調整 */
-    width: 100%;
-}
-
-.item{
-    margin: 1.3vw;  /* マージンを調整 */
-
-    width: 30%;
-    
-}
-
-.portfolio{
-
+.portfolio {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    justify-content: center;
-    align-content: center;
-    width: 50vw;
-    height: 40vw;
+    justify-content: flex-start; /* 左揃えに設定 */
+    margin-top: 15vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
 
+    justify-content: center;
+
+}
+
+.item {
+    max-width: 15.5vw; /* 最大幅を設定 */
+    margin: 2%; /* 横のマージン */
+    margin-bottom: 4vw; /* 縦のマージンを横の長さに基づいて設定 */
+}
+
+.item img {
+    width: 100%;
+    height: auto; /* アスペクト比を維持 */
 }
