@@ -1,29 +1,6 @@
-body {
-    margin: 0;
-    font-family: 'Noto Sans', sans-serif;
-    background-color: #f9f9f9;
-    color: #333;
-}
-
-.portfolio {
+body{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start; /* 左揃えに設定 */
-    margin-top: 15vw;
-    margin-left: 10vw;
-    margin-right: 10vw;
-
-    justify-content: center;
-
 }
-
-.item {
-    max-width: 15.5vw; /* 最大幅を設定 */
-    margin: 2%; /* 横のマージン */
-    margin-bottom: 4vw; /* 縦のマージンを横の長さに基づいて設定 */
-}
-
-.item img {
-    width: 100%;
-    height: auto; /* アスペクト比を維持 */
+.gallery-item{
+    max-width: 12vw;
 }
