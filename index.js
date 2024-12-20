@@ -12,7 +12,7 @@ document.querySelectorAll('.item').forEach(item => {
         }
 
         const maxDistance = 150;
-        const moveFactor = Math.min(maxDistance / distance, 1) * 60;
+        const moveFactor = Math.min(maxDistance / distance, 1) * 20;
 
         const offsetX = (x / distance) * moveFactor;
         const offsetY = (y / distance) * moveFactor;
