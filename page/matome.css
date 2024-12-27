@@ -28,7 +28,10 @@ body {
 }
 
 
-
+h3{
+    font-size: 1.1vw;
+    font-weight:200;
+}
 
 .title_text p{
     text-align: left;
@@ -68,7 +71,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
-
 }
 .imgs img{
     width: 40%;
@@ -78,4 +80,9 @@ body {
 .imgsBig img{
     width: 100%;
     height: auto;
+}
+.imgs2 img{
+    width: 49%;
+    height: auto;
+    margin-top: -3%;
 }
