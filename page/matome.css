@@ -5,7 +5,10 @@ body {
 }
 
 
-
+.contents .yohaku{
+    margin-top: 10vw;
+    margin-bottom: 5vw;
+}
 
 .senta-{
     text-align: center;
