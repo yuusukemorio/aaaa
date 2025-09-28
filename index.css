@@ -14,6 +14,38 @@
     }
 
 
+.header {
+    position: fixed;
+    top: 0;
+    left: 8.3vw;
+    width: 100vw;         /* 横幅を画面幅いっぱいに */
+    height: 6vw;          /* ヘッダーの高さをvwで指定 */
+    display: flex;
+    align-items: center;
+    font-size: 2vw;       /* フォントサイズもvwで */
+    z-index: 1000;        /* 前面に固定 */
+    text-decoration: none;
+    color: #000000;
+}
+.header .yusuke{
+    margin-left: 5vw;
+    display: flex;
+    align-items: center;
+    font-size: 1vw;       /* フォントサイズもvwで */
+    z-index: 1000;        /* 前面に固定 */
+    text-decoration: none;
+    color: #000000;
+}
+.header .yusuke2{
+
+    display: flex;
+    align-items: center;
+    font-size: 2vw;       /* フォントサイズもvwで */
+    z-index: 1000;        /* 前面に固定 */
+    text-decoration: none;
+    color: #000000;
+}
+
     body {
 
         font-family: 'Noto Sans', sans-serif;
@@ -31,19 +63,47 @@
     .portfolio {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
-        align-content: center;
+        margin-left: 3vw;
+        align-content: flex-start;
         width: 90vw;  /* 正方形の幅 */
-        height: 40vw; /* 正方形の高さ */
+        height: 38vw; /* 正方形の高さ */
     }
     
+    .abouts{
+
+        flex-wrap: wrap;
+        
+        align-content: flex-start;
+        width: 83vw;  /* 正方形の幅 */
+        height: 38vw; /* 正方形の高さ */
+    }
+    
+    .home{
+                display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: flex-start;
+        width: 90vw;  /* 正方形の幅 */
+        height: 38vw; /* 正方形の高さ */
+
+    }
+    .home-item{
+        align-content: flex-start;
+        margin-top: -5vw;
+    }
+    .home-item img{
+        max-width: 70vw;
+        margin-top: 5vw;
+    }
+
     .item {
-        margin: 1.8vw;  /* マージンを調整 */
+        margin: 1.6vw;  /* マージンを調整 */
+        margin-bottom: -0.5vw;
         position: relative;
     }
     
     .item img {
-        max-width: 13.5vw;
+        max-width: 14vw;
         display: block;
         transition: transform 0.2s ease-out;
     
@@ -112,6 +172,38 @@
         justify-content: center;
     }
 
+.header {
+    position: fixed;
+    top: 0;
+    left: 8.3vw;
+    width: 100vw;         /* 横幅を画面幅いっぱいに */
+    height: 6vw;          /* ヘッダーの高さをvwで指定 */
+    display: flex;
+    align-items: center;
+    font-size: 2vw;       /* フォントサイズもvwで */
+    z-index: 1000;        /* 前面に固定 */
+    text-decoration: none;
+    color: #000000;
+}
+.header .yusuke{
+    margin-left: 5vw;
+    display: flex;
+    align-items: center;
+    font-size: 1vw;       /* フォントサイズもvwで */
+    z-index: 1000;        /* 前面に固定 */
+    text-decoration: none;
+    color: #000000;
+}
+.header .a{
+    margin-left: 5vw;
+    display: flex;
+    align-items: center;
+    font-size: 1vw;       /* フォントサイズもvwで */
+    z-index: 1000;        /* 前面に固定 */
+    text-decoration: none;
+    color: #000000;
+}
+
     body {
 
         font-family: 'Noto Sans', sans-serif;
@@ -130,13 +222,32 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        align-content: center;
+        align-content: flex-start;
         width: 90vw;  /* 正方形の幅 */
-        height: 40vw; /* 正方形の高さ */
+        height: 45vw; /* 正方形の高さ */
+    }
+
+
+    .home{
+                display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: flex-start;
+        width: 90vw;  /* 正方形の幅 */
+        height: 38vw; /* 正方形の高さ */
+
+    }
+    .home-item{
+        align-content: flex-start;
+        margin-top: -5vw;
+    }
+    .home-item img{
+        max-width: 70vw;
+        margin-top: 5vw;
     }
     
     .item {
-        margin: 1.8vw;  /* マージンを調整 */
+        margin: 1.6vw;  /* マージンを調整 */
         position: relative;
     }
     
