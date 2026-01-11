@@ -9,7 +9,7 @@
     .item-p{
         margin-top: 1%;
         margin-bottom: 0%;
-        font-size: 0.9vw;
+        font-size: 0.85vw;
         font-style: italic;
     }
 
@@ -63,9 +63,9 @@
     .portfolio {
         display: flex;
         flex-wrap: wrap;
-        margin-left: 3vw;
+        margin-left: 0vw;
         align-content: flex-start;
-        width: 90vw;  /* 正方形の幅 */
+        width: 95vw;  /* 正方形の幅 */
         height: 38vw; /* 正方形の高さ */
     }
     
@@ -97,13 +97,13 @@
     }
 
     .item {
-        margin: 1.6vw;  /* マージンを調整 */
-        margin-bottom: -0.5vw;
+        margin: 1.2vw;  /* マージンを調整 */
+        margin-bottom: 2vw;
         position: relative;
     }
     
     .item img {
-        max-width: 14vw;
+        max-width: 16.5vw;
         display: block;
         transition: transform 0.2s ease-out;
     
@@ -223,7 +223,7 @@
         flex-wrap: wrap;
         justify-content: center;
         align-content: flex-start;
-        width: 90vw;  /* 正方形の幅 */
+        width: 95vw;  /* 正方形の幅 */
         height: 45vw; /* 正方形の高さ */
     }
 
